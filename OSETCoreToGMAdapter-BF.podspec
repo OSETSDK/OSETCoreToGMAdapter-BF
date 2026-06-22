@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OSETCoreToGMAdapter-BF"
-  s.version      = "6.6.3.3"
+  s.version      = "6.6.3.4"
   s.summary      = "AdSet广告对接CSJ适配器"
   s.description  = <<-DESC
                     OSETSDK 是一个专业的广告聚合SDK，提供高效的广告展示和收益优化功能。
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   
   # ================= 第三方依赖库 =================
  
-  s.dependency 'OSETCodeSDK-BF','>=6.6.2.7'
+  s.dependency 'OSETCoreSDK-BF'
   s.dependency 'Ads-CN/BUAdSDK'
   s.dependency 'Ads-CN/CSJMediation'
 end
